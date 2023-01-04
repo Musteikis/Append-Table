@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Append table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Append table</h1>
+    <div class="inputs">
+       <input type="text" placeholder="Name">
+       <input type="text" placeholder="Surname">
+       <input type="number" min="0" placeholder="Age">
+    </div>
+    <div class="buttons">
+        <button>Add</button>
+        <button>Delet first</button>
+        <button>Delet last</button>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th class="surname"> Surname</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody id="tableBody">
+            <tr>
+                <td>Jon</td>
+                <td>Snow</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Jaime</td>
+                <td>Lannister</td>
+                <td>33</td>
+            </tr>
+            <tr>
+                <td>Tyrion</td>
+                <td>Lannister</td>
+                <td>28</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="script.js"></script>
+</body>
+</html>

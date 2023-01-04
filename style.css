@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+table {
+    border-collapse: collapse;
+}
+input, button {
+    width: 200px;
+    margin-bottom: 5px;
+}
+thead{
+   
+    text-transform: uppercase;
+}
+tbody{
+    background: #00AAAA;
+    color: white;
+    font-size: larger;
+}
+td, th {
+    width: 200px;
+    border: 2px solid #455A64 ;
+    padding: 15px;
+}
+th {
+    background: #FFB74D;
+}
+th.surname{
+    background: rgb(192, 192, 22);
+}
